@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Department</title>
+        <link rel="stylesheet" href="dept.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="newsletter.css">
+        
+    </head>
+    <body>
+      <script src="Department of Wildlife conservation.js" defer></script>
+      <script src="newsletter.js" defer></script>
+      
+
+        <h1 style="color:aliceblue;">Department of Wildlife Conservation</h1><br>
+        <div>
+          <img src="Images/Logo.png" alt="MYLogo" class="logo"><br>
+        </div>
+        
+        <div class="navbar">
+          <a href="index2.html">Home</a>
+          <a href="Sri Lankan Wildlife introduction2.html">Introduction</a>
+          <a href="Department of Wildlife conservation2.html">Department</a>
+          <a href="Srilankan leopard2.html">Leopard</a>
+          <a href="Animals2.html">Animals</a>
+          <a href="Yala2.html">Yala National Park</a>
+          <a href="Wilpattu2.html">Wilpattu National Park</a>
+          <a href="index.html">Logout</a>
+          <button id="saveButton">Save</button>
+         
+         
+        </div>
+        <div contenteditable="true" id="contenteditable">
+        <div class="para">
+        <p>
+            Towards the end of 1940’s, the Government realized the necessity to establish
+            a separate Department to enforce the Fauna and Flora Protection Ordinance 
+            and to manage the increasing number of wildlife reserves in the country.
+            Accordingly, the Wildlife Department was established in October 1949.
+            Conservator of Forests continued as the Acting Warden, until the
+            new Wildlife Warden, Mr. C.W. Nicolas, was appointed on the 1st of October 1950.<br>
+
+            Within the first decade, cadre of the department was gradually expanded and deployed 
+            to protect the wildlife protected areas in the country. New wildlife Protected Areas 
+            in the GalOya basin and the Yala Block II also were declared.<br>
+
+            Most significant step taken within this period was the appointment
+            of a committee for the protection of the wildlife in 1957.
+            Subsequently, recommendations of this committee on wildlife
+            protected area development, establishment of new protected areas,
+            amendment of Fauna and Flora Protection Ordinance with special 
+            reference to wild elephants, establishment of corridors, 
+            improvement of organisation of Wildlife Department gave rise
+            to a notable progress in those fields.<br>
+
+            The challenge in the hands of the Department of Wildlife Conservation 
+            from 1960 onwards was to ensure the protection of wildlife resources against 
+            the large scale multi-purpose development projects implemented in the country.<br>
+
+            A string of wildlife protected areas was established in the Mahaweli region, 
+            with the objective of providing shelter for the wild animal populations, especially the wild elephants,
+            displaced due to large scale forest clearings under the accelerated Mahaweli Development Project.
+            United States Agency for International Development (USAID) provided financial assistance through
+            a special project titled Mahaweli Environmental Project(MEP), for the establishment 
+            and development of these protected areas.
+        </div>
+        </p>
+        <h1>7 Protected Areas in Sri Lanka</h1>
+        <div id="protected-data">
+        <div class="row"> 
+          <div class="column">
+            <img src="Images/strictnaturereserve.jpeg" style="width:100%" alt="mountains">
+            <b>Strict Nature Reserve</b>
+            <img src="Images/nationalpark.jpeg" style="width:100%" alt="elephantpark">
+            <b>National Park</b>
+            <img src="Images/naturereserve.jpeg" style="width:100%" alt="greenery">
+            <b>Nature Reserve</b>
+            
+          </div>
+          <div class="column">
+            <img src="Images/junglecorridor1.jpeg" style="width:100%" alt="elephantcorridor">
+            <b>Jungle Corridor</b>
+            <img src="Images/marinenationalpark1.jpeg" style="width:100%" alt="waterbridge">
+            <b>Marine National Park</b>
+            <img src="Images/marinereserve.jpeg" style="width:100%" alt="ocean">
+            <b>Marine Reserve</b>
+            <img src="Images/bufferzone.jpeg" style="width:100%" alt="buffer">
+            <b>Buffer Zone</b>
+            
+          </div> 
+        </div>
+        </div>
+        
+        
+        
+          <div class="edit">
+          <h1>Sea Turtle Hatchery in Kosgoda</h1>
+          
+          <img src="Images/turtle.jpeg" alt="turtle"><br><br>
+          
+          
+          
+          <h3>History in Brief:</h3>
+          <p>
+            This is the oldest Conservation and Research project started in Sri Lanka in early 1978.
+            It was at a time when all 7 species of sea turtles were on the Endangered list.
+            Of the 7 species, 5 of the species were found to be frequenting the beaches.
+            of the southern coast of Sri Lanka where they beached, to lay their eggs.
+            These eggs were collected by the villagers and sold in the open market.
+
+          </p>
+          <h3>The Services Offered:</h3>
+          <ol type="1">
+            <li>Educational programmes for school children</li>
+            <li>Awareness raising for public</li>
+            <li>Experience for volunteers</li>
+            <li>Certification for worldlife volunteers</li>
+            <li>Turtle releasing events for special life events (as request)</li>
+          </ol>
+          </div><br><br><br>
+          
+
+        
+      
+        <p>
+          <h3 style="color:darkblue;">Department Of Wildlife Conservation Map</h3>
+
+        </p>
+      
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63374.316886928624!2d79.85312295285311!3d6.903181882520776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae250aa85489b1f%3A0xd8773339b6b43dbb!2sDepartment%20of%20Wildlife%20Conservation!5e0!3m2!1sen!2slk!4v1705050656691!5m2!1sen!2slk"
+            width="450"
+            height="350"
+            frameborder="10"
+            scrolling="no">
+          </iframe>
+
+        </div>
+       
+
+
+    </body>
+
+<script>
+      document.getElementById('saveButton').addEventListener('click', function() {
+  var content = document.getElementById('contenteditable').innerHTML;
+  saveContentToLocalStorage(content);
+  alert('Content saved successfully!');
+  });
+  
+  function saveContentToLocalStorage(content) {
+  localStorage.setItem('contenteditable', content);
+  }
+  
+  // Load content from Local Storage when the page loads
+  window.onload = function() {
+  let storedContent = localStorage.getItem('contenteditable');
+  if (storedContent) {
+  document.getElementById('contenteditable').innerHTML = storedContent;
+  }
+  };
+  </script>
+  <script>
+  document.getElementById('saveButton').addEventListener('click', function() {
+  var content = document.getElementById('editableContent').innerHTML;
+  saveContentToLocalStorage(content);
+  alert('Content saved successfully!');
+  });
+  
+  function saveContentToLocalStorage(content) {
+  localStorage.setItem('editableContent', content);
+  }
+  
+  // Load content from Local Storage when the page loads
+  window.onload = function() {
+  let storedContent = localStorage.getItem('editableContent');
+  if (storedContent) {
+  document.getElementById('editableContent').innerHTML = storedContent;
+  }
+  };
+  </script>
+  
+  
+  
+     
+    
+      
+    
+    
+   
+<footer>
+  <div class="newsletter">
+    <h8 class="letter">Subscribe to Our Newsletter</h8>
+    <form id="newsletterForm">
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    <button type="submit">Subscribe</button>
+    </form>
+  </div>
+        
+        
+    
+      <div class="footcontainer">
+             <div class="socials">
+                     <a href=""><i class="fa fa-facebook adjust"></i></a> 
+                     <a href=""><i class="fa fa-twitter adjust"></i></a> 
+                     <a href=""><i class="fa fa-instagram adjust"></i></a> 
+                     <a href=""><i class="fa fa-youtube adjust"></i></a>
+                     <a href=""><i class="fa fa-google-plus adjust"></i></a>
+              </div>
+         
+        <div class="footbottom">
+          <p>&copy; 2023 Wild Life | All Rights Reserved | Designed by <span class="designer">Shenaly Raju | APIIT </span></p>
+        </div>
+      </div>
+          <!--Department of Wildlife Conservation:
+https://www.dwc.gov.lk/about-the-agency/ https://htrcc.info
+
+-->
+  
+
+  
+  
+</footer>
+</html>

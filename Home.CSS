@@ -1,0 +1,282 @@
+.page{
+    width: 100%;
+    height: auto;
+    display: block; /* Remove extra space below the image */
+    margin: auto; /* Center the image */
+}
+img{
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    height: 400px; /* Maintain the aspect ratio(proportional relationship) of the image */
+    border: 3px solid #eae2e2; 
+    border-radius: 5px; /*  rounded corners to the images */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* a subtle shadow effect */
+    margin: 30px 10px; /*  spacing around the images to make the website more neat */
+    float: left;/*positions the image to the left*/
+    margin:right 10px;/*to ensure the text aligns with the images*/
+}
+
+
+p{
+    font-size: 20px;
+    
+}
+
+
+
+body{
+    background-color: beige;
+    height:100%;
+}
+
+body {
+    margin: 0;/*the space outside the element*/
+    padding: 0;/*the space inside the element is set to 0*/
+}
+
+.logo {
+    position: relative;/*the element will move*/
+    z-index: 1000; /*  high z-index to ensure the logo is above other content */
+    height: auto;
+    width: 100%; /* Make the width 100% to fit the same space */
+    max-width: 50px;
+    margin-top: 5px;
+}
+
+.navbar{
+    background-color: darkseagreen;
+    overflow:hidden;/*to prevent the layout being affected*/
+
+}
+
+.navbar a{
+    float:left;
+    display:block;
+    color:aliceblue;
+    text-align: center;
+    padding: 16px /*styling only for the link*/
+    
+}
+
+.navbar a:hover{/*for moving over the buttons*/
+    background-color:darkseagreen;
+    color:black
+}
+
+table{
+    border-collapse: collapse;/*table borders will be collapsed into a single border removing any spaces between adjacent cells*/
+    width:100%;
+}
+th,td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid burlywood;
+
+}
+tr:hover{
+    background-color:blanchedalmond;
+}
+
+
+
+.icon{
+    object-fit: cover;/*Image is resized to cover the entire container*/
+    width:212px;
+    height: 187px;
+}
+
+.img1{
+    height:100px;
+    width:300px;
+    border: 5px solid black;
+
+}
+
+.page1{
+    width: 300px;
+    height:150px;
+    overflow:scroll;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 10px 10px;
+    color:aliceblue;
+   
+
+}
+
+.page2{
+    width: 300px;
+    height:150px;
+    overflow:scroll;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 10px 10px;
+    color:aliceblue;
+
+}
+
+.leo{
+    width: 100%;
+    height: auto;
+    display: block; /* Remove extra space below the image */
+    margin: auto; /* Center the image */
+}
+
+.birdwing{
+    width:100%;
+    height: auto;
+}
+
+
+
+
+
+  
+  
+
+.leo1{
+    background-image: url("Images/leopardback.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  /*picture is in one place, fixed while the content is scrolled on top*/
+    background-size: cover;/*ensures the bakground image covers the entire webpage and maintains the aspect ratio(proportionality of width and heigth*/
+    height:100%;
+    
+}
+
+
+img.align-right{
+    float:right;
+    margin-left: 10px;
+}
+.points{
+    color:azure;
+    font-weight: 900;/*similar to bold(making the text look thicker) thus making the text stand out*/
+}
+
+.margin{
+    margin-left:20px;/*the left margin is set to 20px*/
+}
+
+.color{
+    color:azure;
+    font-weight: 900;
+}
+/*media queries for tablet*/
+@media only screen and (max-width: 700px) {
+    .img1 {
+        width: 100%; /* Make the image responsive, taking 100% of the width */
+        height: auto; /* Allow the height to adjust proportionally */
+        border: 3px solid black;
+    }
+
+    .page1,
+    .page2 {
+        width: 100%; /* Make the pages responsive, taking 100% of the width */
+        height: auto; /* Allow the height to adjust proportionally */
+    }
+
+    .leo1 {
+        background-attachment: scroll; /* Change background attachment for smaller screens */
+    }
+
+    .navbar a {
+        float: none; /*  the float is none to make links stack vertically */
+        width: 100%; /*  the links take 100% width */
+        text-align: center; /*  the text is center within links */
+    }
+}
+
+/* Media query for phone screens  */
+@media only screen and (max-width: 500px) {
+    .phone {
+        width: 100%; 
+        margin: 6px; /* Adjust margin for smaller spacing */
+    }
+
+   
+}
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+}
+
+/*footer*/
+
+footer{
+    background-color:black;
+    Width: 100%;
+  }
+.footcontainer{ 
+    
+    padding: 70px 30px 20px;
+    font-size: 9px;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+
+}
+.adjust{
+    width: 18px;
+    text-align: center;
+}
+.socials a{
+    text-decoration: none;
+    padding: 10px; 
+    margin: 10px;
+    background-color:whitesmoke; 
+    border-radius: 50%;
+
+}
+.socials a i{
+    font-size: 2em;
+     color:black;
+    opacity: 0.9;
+}
+/*----Hover effect for social icons---*/
+.socials a:hover{
+    background-color: #000;
+    transition: 0.5s;
+}
+.socials a:hover i{
+    color: #fff;
+    transition: 0.5s;
+
+}
+/*--Hover effect for social icons END---/
+/-Footer navigation---*/
+
+
+/*-Footer navigation END--*/
+.footbottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.footbottom p{
+    color:white;
+    font-family: "open Sans", sans-serif;
+    opacity: 0.4;
+    font-size: 10px ;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+    font-weight: 400;
+     margin: 0px 5px;
+}
+
+
+
+
+.content ul{
+    display: block;
+    justify-content: Left;
+}
+

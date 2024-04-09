@@ -1,0 +1,266 @@
+.para{
+    width: 300px;
+    height:150px;
+    overflow:scroll;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 10px 10px;
+    color:darkgreen;
+    font-weight: 900;
+
+}
+
+body{
+    background-color: beige;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.page1{
+    width: 300px;
+    height:150px;
+    overflow:scroll;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 10px 10px;
+    color:green;
+
+}
+
+.page2{
+    width: 300px;
+    height:150px;
+    overflow:scroll;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 10px 10px;
+    color:green;
+
+}
+
+.animal{
+    width: 300px;
+    height:150px;
+    overflow:scroll;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 10px 10px 10px 10px peru;
+    color:chartreuse;
+    font-weight: 900;
+    
+}
+
+.navbar{
+    background-color: darkseagreen;
+    overflow:hidden;
+
+}
+
+.navbar a{
+    float:left;
+    display:block;
+    color:aliceblue;
+    text-align: center;
+    padding: 16px /*styling only for the link*/
+    
+}
+
+.navbar a:hover{
+    background-color:moccasin;
+    color:black
+}
+
+.logo {
+    position: relative; 
+    z-index: 1000; /* high z-index to ensure the logo is above other content */
+    height: auto;
+    width: 100%; /* Make the width 100% to fit the same space */
+    max-width: 50px; 
+}
+ 
+.row {
+    display: flex; /*to define a flex container*/
+    flex-wrap: wrap; /*if the contents don't fit to a single line it will wrap to another line*/
+    padding:  4px;
+}
+
+div.column img:hover {
+    border: 10px solid #035011;
+}
+  
+  /* Create 2 equal columns  next to each other */
+.column {
+    flex: 25%;/*to control the size of the flex item so the element will take upto 25% of the available spacing*/
+    max-width: 50%;/* image won't exceed even if there is space*/
+    padding: 4px;
+}
+  
+.column img {
+    margin-top: 8px; /*creates space above the image*/
+    vertical-align: middle;
+}
+  
+  /* Responsive layout - makes a one column-layout instead of two columns */
+@media (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+  
+  /* Responsive layout - makes the  column stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+}
+body {
+    background-image: url("Images/background.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  /*picture is in one place, fixed while the content is scrolled on top*/
+    background-size: cover; /*ensures the bakground image covers the entire webpage and maintains the aspect ratio(proportionality of width and heigth*/
+}
+
+
+.edit{
+    color:black;
+    width: 500px;
+    border: 5px solid #456616 ;
+    font-weight: bold;
+    margin:auto/*centers the elements horizontally*/
+}
+@media only screen and (max-width: 700px) {
+    .para,
+    .page1,
+    .page2,
+    .animal,
+    .navbar,
+    .logo,
+    .row,
+    .column {
+        width: 100%; /* Make elements take 100% of the width on small screens */
+        max-width: 100%; /* Ensure elements don't exceed 100% width */
+    }
+
+    .navbar a {
+        float: none; /* Remove the float to make links stack vertically */
+        width: 100%; /* Make the links take 100% width */
+        text-align: center; /* Center the text within links */
+    }
+
+    .column {
+        flex: 50%; /*  flex property for columns */
+        max-width: 50%;
+    }
+
+    div.column img:hover {
+        border: 5px solid #035011; /* Adjust border size on image hover */
+    }
+}
+
+/* Media query for phone screens (max-width: 500px) */
+@media only screen and (max-width: 500px) {
+    .para,
+    .page1,
+    .page2,
+    .animal,
+    .navbar,
+    .logo,
+    .row,
+    .column {
+        width: 100%; /* Make elements take 100% of the width */
+        max-width: 100%; /* Ensure elements don't exceed 100% width */
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+}
+
+/*footer*/
+
+footer{
+    background-color:black;
+    Width: 100%;
+  }
+.footcontainer{ 
+    
+    padding: 70px 30px 20px;
+    font-size: 9px;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+
+}
+.adjust{
+    width: 18px;
+    text-align: center;
+}
+.socials a{
+    text-decoration: none;
+    padding: 10px; 
+    margin: 10px;
+    background-color:whitesmoke; 
+    border-radius: 50%;
+
+}
+.socials a i{
+    font-size: 2em;
+     color:black;
+    opacity: 0.9;
+}
+/*----Hover effect for social icons---*/
+.socials a:hover{
+    background-color: #000;
+    transition: 0.5s;
+}
+.socials a:hover i{
+    color: #fff;
+    transition: 0.5s;
+
+}
+/*--Hover effect for social icons END---/
+/-Footer navigation---*/
+
+
+/*-Footer navigation END--*/
+.footbottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.footbottom p{
+    color:white;
+    font-family: "open Sans", sans-serif;
+    opacity: 0.4;
+    font-size: 10px ;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+    font-weight: 400;
+     margin: 0px 5px;
+}
+.content ul{
+    display: block;
+    justify-content: Left;
+}
+
+
+

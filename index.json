@@ -1,0 +1,81 @@
+[
+    {
+        "title": "Home",
+        "images": [
+          "Images/Logo.png",
+          "Images/img1.jpeg",
+          "Images/img2.webp",
+          "Images/icon.jpeg",
+          "Images/bird.jpeg",
+          "Images/hortonpic.jpeg",
+          "Images/download.jpeg",
+          "Images/faunaind.jpeg",
+          "Images/monkind.webp",
+          "Images/conservation.webp",
+          "Images/conserve1.jpeg",
+          "Images/conserve2.jpeg",
+          "Images/elephant.jpeg",
+          "Images/whales.jpeg"
+        ],
+
+        
+            "text_content": [
+              "Introduction to Sri Lankan Wildlife",
+              "What is part of Wildlife",
+              "Wildlife — the word brings many images to mind, a herd of deer, squirrels scolding from a treetop, a pack of wolves, the silent flight of an owl. But the world of wildlife includes many not-so-glamorous creatures as well: spiders, ghost shrimp, segmented worms, bark beetles, and protozoa. Each has basic needs for food, water, shelter, and space that must be met. None live totally on their own.",
+              "Wildlife refers to undomesticated animal species, but all animals that evolve or exist in the wild in an environment without human introduction have come to be included. In all habitats, biodiversity can be found. There are distinct types of wildlife in deserts, forests, rainforests, plains, grasslands, and other regions, including the most populated urban areas. Although the term generally applies to animals in popular culture that are unaffected by human influences, most scientists accept that human activities influence a great deal of wildlife.",
+              "Each lives out its life in a kaleidoscope of relationships with other individuals and species in different plant communities, in various climatic conditions and in all the various elements that affect life on planet Earth. You will be able to discover that several animals and plants are rare in your region if you look around. In fact, in terms of its vast array of biological diversity, India is one of the richest countries in the world. This is potentially two or three times the amount yet to be found. In our daily lives, these rich flora and fauna are so well incorporated that we take them for granted. But lately, mostly due to insensitivity to our climate, they are under great stress.",
+              "Wildlife Conservation is the practice of protecting plant and animal species and their habitats. As part of the world’s ecosystems, wildlife provides balance and stability to nature’s processes. The goal of wildlife conservation is to ensure the survival of these species, and to educate people on living sustainably with other species.",
+              "The human population has grown exponentially over the past 200 years, to more than seven billion people today, and it continues to rapidly grow. This means natural resources are being consumed faster than ever by the billions of people on the planet. This growth and development also endangers the habitats and existence of various types of wildlife around the world, particularly animals and plants that may be displaced for land development.",
+              "Wildlife in Sri Lanka",
+              "The Gathering of Elephants: The largest seasonally recurring concentration of wild elephants takes place between July to September at Minneriya (and Kaudulla) National Park. Over 300 elephants may gather on the seasonally drying lake bed. Listed by Lonely Planet as among the Top Ten wildlife spectacles in the world. Uda Walawe National Park is the only site in the world where wild elephants are guaranteed on every game drive.",
+              "Best for Blue Whale and Top Ten for Sperm Whales: Sri Lanka is Best for Blue Whale, the largest animal that has ever lived on earth. Mirissa and Trincomalee offer the best Blue Whale viewing in the world. Kalpitiya is among the top ten sites in the world for the Sperm Whale, the biggest toothed whale. Mirissa offers the best chance in the world to see both Blue and Sperm Whales on the same whale watching. Sri Lanka is somewhat of an outlier when it comes to biodiversity. Experts have been studying the biodiversity of this small island since the early 20th century, and all with good reason. The number of animal species in the island is said to be five times as much as it is supposed to be in an island of its size, and the number of endemic species in the country is amazing. From endemic birds to endemic primates, Sri Lanka has them all. The wonder of Sri Lanka – being such a small island – is that you don’t have to travel far to see any of them.",
+              "Different plant and animal species:",
+              "Vulnerable Species",
+              "Rare Species",
+              "Endemic Species",
+              "Extinct Species",
+              "Classification of Forests",
+              "Reserved Forests",
+              "Protected Forests",
+              "Unclassed Forests"
+            ]
+          
+          
+        ,
+        "links": [
+          {
+            "text": "Home",
+            "href": "index.html"
+          },
+
+          {    
+            "text":"Introduction",
+            "href":"Sri Lankan Wildlife introduction.html"
+          },
+          {
+            "text":"Department",
+            "href":"Department of Wildlife conservation.html"
+          },
+          {
+            "text":"Leopard",
+            "href":"Srilankan leopard.html"
+          },
+          {
+            "text":"Animals",
+            "href":"Animals.html"
+          },
+          {
+            "text":"Yala National Park",
+            "href":"Yala.html"
+          },
+          {
+            "text":"Wilpattu National Park",
+            "href":"Wilpattu.html"
+          }
+          
+        
+        ]
+    }
+      
+]

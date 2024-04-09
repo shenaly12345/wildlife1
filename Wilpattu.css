@@ -1,0 +1,240 @@
+img{
+    width: 100%;
+    height: auto; /*automatically maintain the aspect ratio*/
+    display: block;/*allows more control over the layout including the ability to set margins and paddings*/
+}
+
+.wilpattu1{
+    border: 10px solid #555;
+    width: 500px;
+    height: 330px;
+    display:block;
+
+}
+
+.logo {
+    position: relative; 
+    z-index: 1000; /* a high z-index to ensure the logo is above other content */
+    height: auto;
+    width: 100%; /*  to fit the same space */
+    max-width: 50px; 
+}
+
+.navbar{
+    background-color: darkseagreen;
+    overflow:hidden;/*to prevent the layout being affected*/
+
+
+}
+/*styling only for links*/
+.navbar a{
+    float:left;
+    display:block;
+    color:aliceblue;
+    text-align: center;
+    padding: 16px 
+}
+
+.navbar a:hover{
+    background-color:darkseagreen;
+    color:black
+}
+
+
+
+.wilpattupage{
+    color:black;
+    width: 500px;
+    border: 7px solid #164966;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;/*to make the text more bold and visible*/
+    background-color: antiquewhite;
+}
+
+
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+  
+div.gallery:hover {
+    border: 10px solid #5e5959;
+}
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+  
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: bisque;
+}
+  
+* {
+    box-sizing: border-box;
+}
+  
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+  
+@media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+}
+  
+@media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body{
+    background-color: beige;
+}
+
+body {
+    background-image: url("Images/wilpattuback.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+.fadeimage{
+    animation: fadeIn 5s;
+    
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+@media only screen and (max-width: 700px) {
+    body {
+        background-size: contain; /* Adjust background size for better visibility on small screens */
+    }
+
+    .wilpattupage {
+        width: 100%; /* Make the page take 100% width on small screens */
+        max-width: 100%; /* Ensure the page doesn't exceed 100% width */
+        border: 5px solid #164966; /* Adjust border size on small screens */
+    }
+
+    div.gallery {
+        border: 5px solid #ccc; /* Adjust border size for gallery on small screens */
+    }
+
+    div.gallery:hover {
+        border: 10px solid #5e5959; /* Adjust border size on gallery hover on small screens */
+    }
+
+    .responsive {
+        width: 100%; /* Make the responsive class take 100% width on small screens */
+        margin: 6px 0; /* Adjust margin for smaller spacing */
+    }
+
+    .fadeimage {
+        animation: fadeIn 3s; /* Adjust fade-in animation duration on small screens */
+    }
+}
+
+/* Media query for extra-small screens (max-width: 500px) */
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%; /* Make the responsive class take 100% width on extra-small screens */
+    }
+}
+
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+}
+/*footer*/
+
+footer{
+    background-color:black;
+    Width: 100%;
+  }
+.footcontainer{ 
+    
+    padding: 70px 30px 20px;
+    font-size: 9px;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+
+}
+.adjust{
+    width: 18px;
+    text-align: center;
+}
+.socials a{
+    text-decoration: none;
+    padding: 10px; 
+    margin: 10px;
+    background-color:whitesmoke; 
+    border-radius: 50%;
+
+}
+.socials a i{
+    font-size: 2em;
+     color:black;
+    opacity: 0.9;
+}
+/*----Hover effect for social icons---*/
+.socials a:hover{
+    background-color: #000;
+    transition: 0.5s;
+}
+.socials a:hover i{
+    color: #fff;
+    transition: 0.5s;
+
+}
+/*--Hover effect for social icons END---/
+/-Footer navigation---*/
+
+
+/*-Footer navigation END--*/
+.footbottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.footbottom p{
+    color:white;
+    font-family: "open Sans", sans-serif;
+    opacity: 0.4;
+    font-size: 10px ;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+    font-weight: 400;
+     margin: 0px 5px;
+}
+.content ul{
+    display: block;
+    justify-content: Left;
+}
+

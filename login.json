@@ -1,0 +1,37 @@
+{
+    "title": "Login",
+    "stylesheet": "login.css",
+    "form": {
+      "title": "Login",
+      "inputs": [
+        {
+          "type": "text",
+          "id": "username",
+          "placeholder": "Username",
+          "required": true
+        },
+        {
+          "type": "password",
+          "id": "password",
+          "placeholder": "Password",
+          "required": true
+        }
+      ],
+      "button": "Login"
+    },
+    "users":
+    [
+    {"username":"admin",
+    "password":"admin",
+    "role":"admin",
+    "email":"admin@admin.cOm"
+    },
+
+    {"username":"user",
+    "password":"user",
+    "role" : "site_user",
+    "email":"user@user.com"  
+    }
+    ],
+    "script": "login.js"
+  }

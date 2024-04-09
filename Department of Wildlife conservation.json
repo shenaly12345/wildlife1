@@ -1,0 +1,50 @@
+{
+    "title": "Department",
+    "navbar": [
+      {"text": "Home", "href": "index.html"},
+      {"text": "Introduction", "href": "Sri Lankan Wildlife introduction.html"},
+      {"text": "Department", "href": "Department of Wildlife conservation.html"},
+      {"text": "Leopard", "href": "Srilankan leopard.html"},
+      {"text": "Animals", "href": "Animals.html"},
+      {"text": "Yala National Park", "href": "Yala.html"},
+      {"text": "Wilpattu National Park", "href": "Wilpattu.html"}
+    ],
+    "content": [
+      {
+        "heading": "Department of Wildlife Conservation",
+        "logo": "Images/Logo.png",
+        "paragraph": "Towards the end of 1940’s, the Government realized the necessity to establish a separate Department to enforce the Fauna and Flora Protection Ordinance and to manage the increasing number of wildlife reserves in the country. Accordingly, the Wildlife Department was established in October 1949. Conservator of Forests continued as the Acting Warden, until the new Wildlife Warden, Mr. C.W. Nicolas, was appointed on the 1st of October 1950...",
+        "protected_areas": {
+          "heading": "7 Protected Areas in Sri Lanka",
+          "areas": [
+            {"name": "Strict Nature Reserve", "image": "Images/strictnaturereserve.jpeg"},
+            {"name": "National Park", "image": "Images/nationalpark.jpeg"},
+            {"name": "Nature Reserve", "image": "Images/naturereserve.jpeg"},
+            {"name": "Jungle Corridor", "image": "Images/junglecorridor1.jpeg"},
+            {"name": "Marine National Park", "image": "Images/marinenationalpark1.jpeg"},
+            {"name": "Marine Reserve", "image": "Images/marinereserve.jpeg"},
+            {"name": "Buffer Zone", "image": "Images/bufferzone.jpeg"}
+          ]
+        },
+        "sea_turtle_hatchery": {
+          "heading": "Sea Turtle Hatchery in Kosgoda",
+          "image": "Images/turtle.jpeg",
+          "history": "This is the oldest Conservation and Research project started in Sri Lanka in early 1978. It was at a time when all 7 species of sea turtles were on the Endangered list...",
+          "services_offered": [
+            "Educational programmes for school children",
+            "Awareness raising for public",
+            "Experience for volunteers",
+            "Certification for worldlife volunteers",
+            "Turtle releasing events for special life events (as request)"
+          ]
+        }
+      }
+    ],
+    "map": {
+      "heading": "Department Of Wildlife Conservation Map",
+      "iframe_src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63374.316886928624!2d79.85312295285311!3d6.903181882520776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae250aa85489b1f%3A0xd8773339b6b43dbb!2sDepartment%20of%20Wildlife%20Conservation!5e0!3m2!1sen!2slk!4v1705050656691!5m2!1sen!2slk",
+      "width": "450",
+      "height": "350"
+    }
+  }
+  

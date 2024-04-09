@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(0, 221, 255);
+}
+
+h2 {
+    text-align: center;
+}
+
+#emailList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.emailItem {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.emailItem:hover {
+    background-color: #e0e0e0;
+}

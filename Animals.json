@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Purple-faced Leaf Monkey",
+        "description": "A long-tailed arboreal monkey with generally brownish-black on the body and limbs. Coat colour varies with the subspecies...",
+        "image": "Images/purplefacedlangurbanner.jpeg"
+    },
+    {
+        "name": "Toque Macaque",
+        "description": "This species has a long tail and a golden brown coat on the top. They spend much of their time on the ground, but quite at home on the trees as well...",
+        "image": "Images/toquebanner.jpeg"
+    },
+    {
+        "name": "Ceylon Birdwing",
+        "description": "This is the largest butterfly species in Sri Lanka and is endemic. It can be easily identified by its size and the yellow and black colours seen when flying...",
+        "image": "Images/birdwingbanner.png"
+    }
+]

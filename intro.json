@@ -1,0 +1,60 @@
+{
+"title": "Sri Lankan Wildlife",
+"logo": "Images/Logo.png",
+"navbar": [
+  {"text": "Home", "href": "index.html"},
+  {"text": "Introduction", "href": "Sri Lankan Wildlife introduction.html"},
+  {"text": "Department", "href": "Department of Wildlife conservation.html"},
+  {"text": "Leopard", "href": "Srilankan leopard.html"},
+  {"text": "Animals", "href": "Animals.html"},
+  {"text": "Yala National Park", "href": "Yala.html"},
+  {"text": "Wilpattu National Park", "href": "Wilpattu.html"}
+],
+"national_parks": [
+  {
+    "name": "Udawalawe National Park",
+    "image": "Images/UNP.jpeg",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63436.28388082392!2d80.7403623357297!3d6.4238802557508885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae40750763484ed%3A0x302cc7e3f95389b5!2sUdawalawa!5e0!3m2!1sen!2slk!4v1704347239424!5m2!1sen!2slk",
+    "description": "In Udawalawe National Park, elephants are everywhere. They roam in herds of up to 30,\nand total up to 600 in the park, which means a visit here is almost guarantee of sightings.\nThere are also leopards, crocodiles, water buffalo, deer, and all types of bird species\nbut it’s the elephant that’s the star of the show here.\nSeeing them roam the plains, dust themselves, tend to their young, eat and drink\nand simply be wild elephants, is a core memory from Sri Lanka we’ll never forget.\nAnd that’s what makes a safari in Udawalawe, and indeed Sri Lanka, so damn exciting.\nJust a four-hour drive from the capital, Colombo, and close by the famed southern\ncoast and central highlands, the national park is reminiscent of those far more popular\nin Africa or India, yet so much more accessible.\n\nEstablished in 1972, Udawalawe National Park is a great example of Sri Lanka's efforts\nto protect wildlife in an ethical and sustainable way.\nPrimarily created to provide a sanctuary for the large population\nof wild elephants that lived in the area, as well as to protect\nthe diverse range of flora and fauna found in the park\nUdawalawe also provides a catchment area for the Udawalawe Reservoir,\nwhich is an important source of water for the surrounding area.\nKnown for its amazing wildlife  and breathtaking landscapes,\nthe park is nestled in the district of Uva, part of the Udawalawe reservoir,\nthe largest water body in the dry zone of Sri Lanka,\nand covers an area of around 31,000 hectares.",
+    "abundance": "2,400 to 3,500"
+  },
+  {
+    "name": "Minneriya National Park",
+    "image": "Images/MNP.webp",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7901.22827202206!2d80.8967487848742!3d8.038657785321256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afb67512c3b4527%3A0xa6ead88b262eedfb!2sMinneriya!5e0!3m2!1sen!2slk!4v1704356495882!5m2!1sen!2slk",
+    "description":"Located between Habarana and Polonnaruwa, the 8,890 hectares of Minneriya National Park features the ancient Minneriya Tank. Constructed in an evergreen forest where sambar deer, leopards, and elephants roam, this tank was built in 3rd century AD by King Mahasena. During the dry season (June to September), this is an incredible place to observe the elephants and flocks of birds, such as cormorants and painted storks.\n\nClimate and vegetation in Minneriya National Park\n\nThe park belongs to the dry zone of the country from May to September considered as the dry season. The wet season lasts during the north eastern monsoon from October to January. The main habitats of Minneriya are of several types, including low-canopy montane forests, intermediate high-canopy secondary forests, scrublands, abandoned chena lands, grasslands, rocky outcrops, and wetlands.",
+
+    "abundance": "7,000"
+  },
+  {
+    "name": "Sinharaja Forest Reserve",
+    "image": "Images/SNP1.jpeg",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.8991566476957!2d80.45745167445455!3d6.406990793583737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3e76bd109d45f%3A0x8c0ef1010649701b!2sSinharaja%20Forest%20Reserve!5e0!3m2!1sen!2slk!4v1704378019623!5m2!1sen!2slk",
+    "description":"Sinharaja is a Rain Forest and a biodiversity hotspot which is located in south west lowland wet zone within Sabaragamu and Southern provinces of Sri Lanka. Sinharaja rain forest is the country’s last viable area of primary tropical rain forest. It covers an area of 11,000 Ha of primary and secondary forests. This narrow strip of rolling site comprises of a series of ridges and valleys. More than 60% of the trees are endemic to Sinharaja Forest and many of them are considered rare.\n\nThere is much endemic wildlife, especially birds but the reserve is also home to over 50% of Sri Lanka’s endemic species of butterflies & mammals and also many kinds of insects, reptiles and rare amphibians. This is one of the main reasons that UNESCO declared Sinharaja Forest as a UNESCO World Heritage in 1988 under the name of Sinharaja Forest Reserve. In 1936 Sinharaja Forest was first recognized as being the only considerable patch of virgin tropical rain forest in the Island."
+    ,
+    "abundance": "4 subspecies"
+  },
+  {
+    "name": "Hortan Plains National Park",
+    "image": "Images/Horton-Plains-National-Park1.webp",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.6740385671706!2d80.79975837445852!3d6.809445993188105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3882edb4b78ef%3A0xcebca89153777249!2sHorton%20Plains%20National%20Park!5e0!3m2!1sen!2slk!4v1704378194304!5m2!1sen!2slk",
+    "description":  "Horton Plains is a beautiful, stark world with excellent hikes in the shadows of Sri Lanka’s second- and third-highest mountains, Kirigalpotta (2395m) and Totapola (2357m). The ‘plains’ form an undulating plateau over 2000m high, covered by wild grasslands and interspersed with patches of thick forest, rocky outcrops, filigree waterfalls and misty lakes. The surprising diversity of the landscape is matched by the wide variety of wildlife, although many of the larger animals are very elusive. Birdwatchers will be well rewarded.\n\nThe park is spread over the two highest mountains in the area called Kirigalpotta and Totapola. The plateau-like structure along with plains on one end, thick forests and mountains on other make the Central Highlands of Sri Lanka. You will find a number of waterfalls, lakes, rocky hills and views of the ocean in this part of the country. The forest is home to a number of wild animals and birds, however, most large animals remain elusive and unapproachable."
+    ,
+    "abundance": "1,200"
+  }
+],
+"Images":[
+    {
+        "img1":"Images/crocodile.jpeg",
+        "img2":"Images/elephant.jpeg",
+        "img3":"./Images/monkind.webp",
+        "img4":"Images/sambardeer.jpeg"
+
+
+
+    }
+
+]
+
+
+}
